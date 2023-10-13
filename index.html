@@ -1,56 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="javascript.js" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,400;1,700&display=swap"
+      rel="stylesheet"
+    >
+    <title>Light Academy</title>
   </head>
   <body>
-    <div class="container">
-      <!-- <header class="header">
-        <nav class="navbar">
-            <div class="logo">
-                Your Academy
-            </div>
-            <ul class="nav-links">
-                <li><a href="#welcome">Welcome</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header> -->
-      <header class="header">
-        <nav class="navbar">
-          <div class="logo">Your Academy</div>
-          <div class="logo-underline"></div>
-          <ul class="nav-links">
-            <li><a href="#welcome">Welcome</a></li>
-            <li><a href="#about us">About Us</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-          </ul>
-        </nav>
-      </header>
-      <section class="hero" id="welcome">
-        <div class="hero-content">
-          <h1>Welcome to Light Academy</h1>
-          <p>
-            Your gateway to a world of knowledge and endless possibilities!
-            Whether you're seeking to expand your horizons, enhance your skills,
-            or embark on a transformative educational journey, you've arrived at
-            the right place.
-          </p>
-          <a href="#courses" class="btn">Explore Courses</a>
+    <header>
+      <div class="logo">
+        <img src="./img/hero-image.png" alt="website logo">
+        <p>Light Academy</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="content">
+        <h1>Welcome to Our Course Website</h1>
+        <p>Learn and enhance your skills with our wide range of courses.</p>
+        <a href="#courses" class="btn">Get Started</a>
+      </div>
+      <div class="hero-overlay"></div>
+    </section>
+
+    <section id="courses" class="courses">
+      <h2 class="section-title">Our Courses</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="./img/webdevelopment.jpg" alt="Web development image">
+          <div class="card-body">
+            <h3 class="card-title">Web Development</h3>
+            <p class="card-text">Learn web development essentials and build modern websites from scratch.</p>
+            <a href="#" class="btn">Enroll Now</a>
+          </div>
         </div>
-        <div class="hero-image">
-          <img src="img/hero-image.png" alt="Academy Image" />
+        <div class="card">
+          <img src="./img/videoediting.jpg" alt="Video editing image">
+          <div class="card-body">
+            <h3 class="card-title">Video Editing</h3>
+            <p class="card-text">Learn video editing essentials and make modern video edits from scratch.</p>
+            <a href="#" class="btn">Enroll Now</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/hacking.jpg" alt="Hacking image">
+          <div class="card-body">
+            <h3 class="card-title">Hacking</h3>
+            <p class="card-text">Learn to hack with the latest technology and cyber attacks from scratch.</p>
+            <a href="#" class="btn">Enroll Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./img/hacking.jpg" alt="Hacking image">
+          <div class="card-body">
+            <h3 class="card-title">Hacking</h3>
+            <p class="card-text">Learn to hack with the latest technology and cyber attacks from scratch.</p>
+            <a href="#" class="btn">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <blockquote id="about" class="about">
+        <h2 class="sections-title">About Us</h2>
+          "Light Academy is a premier online course platform dedicated to providing high-quality education in a wide range of subjects. We believe in the power of education to transform lives and empower individuals to achieve their goals. At Light Academy, we offer a diverse selection of courses taught by experienced instructors who are experts in their respective fields. Whether you are looking to enhance your skills in web development, digital marketing, graphic design, or any other area, we have a course for you. Our courses are designed to be engaging, interactive, and practical, ensuring that you acquire the knowledge and skills that are directly applicable to real-world scenarios."
+      </blockquote>
+
+      <section id="instructors" class="instructors">
+        <h2 class="section-title">Our Instructors</h2>
+        <div class="instructors-container">
+          <div class="instructor-card">
+            <img class="instructor-image" src="./img/christopher-campbell.jpg" alt="Instructor Image">
+            <h2 class="instructor-name">Christopher Campbell</h2>
+            <a class="view-more-btn" href="#">View More</a>
+          </div>
+
+          <div class="instructor-card">
+            <img class="instructor-image" src="./img/christopher-campbell.jpg" alt="Instructor Image">
+            <h2 class="instructor-name">Jane Smith</h2>
+            <a class="view-more-btn" href="#">View More</a>
+          </div>
+
+          <div class="instructor-card">
+            <img class="instructor-image" src="./img/christopher-campbell.jpg" alt="Instructor Image">
+            <h2 class="instructor-name">Michael Johnson</h2>
+            <a class="view-more-btn" href="#">View More</a>
+          </div>
+
+          <div class="instructor-card">
+            <img class="instructor-image" src="./img/christopher-campbell.jpg" alt="Instructor Image">
+            <h2 class="instructor-name">Emily Davis</h2>
+            <a class="view-more-btn" href="#">View More</a>
+          </div>
         </div>
       </section>
 
-      <section></section>
-      <footer></footer>
-    </div>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions or inquiries, feel free to reach out to us.
+      </p>
+      <form>
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Course Website. All rights reserved.</p>
+    </footer>
   </body>
 </html>
