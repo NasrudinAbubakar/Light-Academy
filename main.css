@@ -1,0 +1,107 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00bcd4; /* Change color on hover */
+}
+
+/* Style the academy name */
+.academy-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style the welcome page */
+.welcome-page {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the courses page */
+.courses-page {
+  padding: 20px;
+}
+
+.course {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.course:hover {
+  transform: scale(1.02); /* Add a hover effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-icon {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.course-icon img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.course-details {
+  flex: 1;
+}
+
+h3 {
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #00bcd4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0097a7;
+}
+
+/* Style the contact page */
+.contact-page {
+  padding: 20px;
+}
